@@ -1,4 +1,5 @@
 <?php
+// auth routes
 Route::group(['as' => 'auth.', 'namespace' => 'Auth'], function () {
 
     Route::get('login', 'LoginController@showForm')->name('login');
